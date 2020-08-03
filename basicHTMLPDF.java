@@ -13,7 +13,7 @@ public class CSStoPDF {
 
     public static void main(String[] args) throws IOException
     {
-        LicenseKey.loadLicenseFile("Cal_iText_Developer_key.xml");
+        LicenseKey.loadLicenseFile("my_iText_license_key.xml");
 
         File file = new File(DEST);
         file.getParentFile().mkdirs();
