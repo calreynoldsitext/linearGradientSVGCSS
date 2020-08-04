@@ -13,8 +13,6 @@ namespace Example
 
         public static void Main(String[] args)
         {
-            LicenseKey.loadLicenseFile("my_iText_license_key.xml");
-
             FileInfo file = new FileInfo(DEST);
             file.Directory().Create();
             new CSSToPDF().CreatePdf();
