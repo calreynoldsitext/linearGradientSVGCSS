@@ -2,9 +2,7 @@ package Example;
 
 import java.io.File;
 import java.io.IOException;
-
 import com.itextpdf.html2pdf.HtmlConverter;
-import com.itextpdf.licensekey.LicenseKey;
 
 public class CSStoPDF {
 

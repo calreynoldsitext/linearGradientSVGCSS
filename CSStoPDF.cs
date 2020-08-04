@@ -1,6 +1,5 @@
 using System;
 using System.IO;
-using iText.License;
 using iText.Html2Pdf;
 
 namespace Example
